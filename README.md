@@ -34,7 +34,79 @@ Visualizing adversarial attacks offers concrete evidence of vulnerabilities in n
 ### Conclusion
 The literature reviewed here provides a comprehensive understanding of the behavior of neural networks and the mechanisms behind adversarial attacks. By leveraging insights from these seminal works, researchers can develop more robust and reliable neural network architectures, thus advancing the field of machine learning security.
 
+You can present these key points in your README file on GitHub to provide a concise overview of your findings. Here's a suggested format:
+
 ---
+
+## Key Inferences
+
+### 1. Explainable AI Insights
+Explainable AI techniques offer valuable insights into the decision-making processes of neural networks, helping us understand how models interpret data and make predictions.
+
+### 2. Nature of Untargeted Adversarial Attacks
+- Models deceived by adversarial attacks tended to misclassify inputs into related categories, such as different breeds of dogs.
+- Adversarial perturbations may influence the model's interpretations along existing lines of understanding, rather than inducing random errors.
+
+### 3. Impact of Training Data Distribution
+- The distribution of training data influences model predictions.
+- Diverse datasets with overlapping features, such as various dog breeds, may lead to a more detailed but vulnerable understanding of categories, potentially increasing susceptibility to adversarial attacks.
+
+### 4. Role of Non-Robust Features
+- Non-robust features, such as background elements, play a crucial role in misclassification.
+- Adversarial attacks may exploit these features to deceive the model.
+
+### 5. Balancing Robust and Non-Robust Features
+- Model resilience against adversarial attacks is determined by how it balances attention between robust and non-robust features.
+- Effective balancing of focus between these features may lead to greater resistance against adversarial perturbations.
+
+
+To present the hypotheses and their evaluation in your README file on GitHub, you can structure the information in a clear and organized manner. Here's a suggested format:
+
+---
+
+## Hypotheses and Evaluation
+
+### Hypothesis 1: Dataset Distribution
+**Hypothesis:** Neural networks trained on datasets with closely related classes are more susceptible to adversarial attacks due to potential feature overlap.
+
+**Testing Methodology:**
+- Trained models using transfer learning on a custom dataset comprising five distinct classes.
+- Evaluated robustness against adversarial attacks.
+- Analyzed model performance metrics.
+
+**Findings:**
+- Observed significant differences in model performance based on dataset quality.
+- Highlighted vulnerabilities of models trained on datasets with overlapping features.
+
+### Hypothesis 2: Pre-processing of Non-Robust Features
+**Hypothesis:** Pre-processing to remove non-robust features improves model robustness against adversarial attacks.
+
+**Testing Methodology:**
+- Pre-processed images by removing backgrounds.
+- Simulated targeted adversarial attacks.
+- Observed model predictions and attention maps.
+
+**Findings:**
+- Pre-processing enhanced resilience against targeted attacks but had mixed results for untargeted attacks.
+- Highlighted the importance of architecture-specific vulnerabilities.
+
+### Hypothesis 3: Impact of Dropout Layers
+**Hypothesis:** Inclusion of dropout layers may inadvertently increase model vulnerability to adversarial attacks.
+
+**Testing Methodology:**
+- Experimented with different dropout rates in the GoogLeNet model.
+- Evaluated feature selection and model robustness.
+
+**Findings:**
+- Dropout rates affected feature importance and model resilience against adversarial attacks.
+- Highlighted the challenge of balancing model generalization and robustness.
+
+### Conclusion and Future Directions
+- Emphasize the importance of understanding how model parameters and data distribution impact model robustness.
+- Suggest future research directions for fine-tuning dropout values and defending against specific adversarial perturbations.
+
+---
+
 
 ## Usage
 1. Clone the repository:
