@@ -38,16 +38,11 @@ The literature reviewed here provides a comprehensive understanding of the behav
 
 Feel free to expand or customize this review based on additional insights or references you may have.
 
-## Requirements
-- Python 3.x
-- Required Python libraries (list them here)
 
 ## Usage
 1. Clone the repository:
    ```
    git clone https://github.com/anandgunti55/Adversarial-Attacks.git
-   ```
-
    ```
 2. Refer to the dissertation document for detailed explanations of the experiments and results.
 
