@@ -1,8 +1,9 @@
 
-# Exploring Neural Network Dynamics: Adversarial Attacks and Robustness
+# Investigating Adversarial Attacks on Neural Networks:Exploring Explainable AI and The Impact of Feature Selection using MATLAB
 
 ## Overview
-This repository contains the code and resources for the dissertation titled "Exploring Neural Network Dynamics: Adversarial Attacks and Robustness". The dissertation investigates the impact of adversarial attacks on neural networks, with a focus on understanding their decision-making processes and identifying factors influencing their robustness.
+This repository contains the code and resources for the dissertation titled "Investigating Adversarial Attacks on Neural Networks:
+Exploring Explainable AI and The Impact of Feature Selection using MATLAB". The dissertation investigates the impact of adversarial attacks on neural networks, with a focus on understanding their decision-making processes and identifying factors influencing their robustness.
 
 ## Contents
 - **Code**: This directory contains the Python scripts used for the experiments and analysis conducted in the dissertation.
