@@ -45,18 +45,11 @@ Feel free to expand or customize this review based on additional insights or ref
 ## Usage
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/neural-network-dynamics.git
+   git clone https://github.com/anandgunti55/Adversarial-Attacks.git
    ```
-2. Install the required dependencies:
+
    ```
-   pip install -r requirements.txt
-   ```
-3. Navigate to the `code` directory and run the scripts:
-   ```
-   cd code
-   python experiment.py
-   ```
-4. Refer to the dissertation document for detailed explanations of the experiments and results.
+2. Refer to the dissertation document for detailed explanations of the experiments and results.
 
 ## Acknowledgments
 We would like to thank [mention any acknowledgments here, such as funding agencies, collaborators, etc.].
