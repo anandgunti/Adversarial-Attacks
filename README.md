@@ -10,9 +10,6 @@ Exploring Explainable AI and The Impact of Feature Selection using MATLAB". The 
 - **Data**: This directory includes datasets used for training and evaluation purposes. Due to size limitations, only sample datasets are provided. Full datasets can be obtained from the respective sources mentioned in the dissertation.
 - **Research papers**: This directory includes additional documentation such as literature reviews.
 
-Here's a structured literature review based on the references you provided:
-
----
 
 ## Literature Review
 
