@@ -8,9 +8,7 @@ Exploring Explainable AI and The Impact of Feature Selection using MATLAB". The 
 ## Contents
 - **Code**: This directory contains the Python scripts used for the experiments and analysis conducted in the dissertation.
 - **Data**: This directory includes datasets used for training and evaluation purposes. Due to size limitations, only sample datasets are provided. Full datasets can be obtained from the respective sources mentioned in the dissertation.
-- **Results**: This directory contains visualizations, tables, and other results obtained from the experiments. Detailed analysis and interpretations are provided in the dissertation document.
-- **Documentation**: This directory includes additional documentation such as literature reviews, methodology descriptions, and detailed experiment setups.
-- **References**: This directory contains the references cited in the dissertation.
+- **Research papers**: This directory includes additional documentation such as literature reviews.
 
 ## Requirements
 - Python 3.x
